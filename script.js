@@ -7,6 +7,9 @@ const presets = {
     colors: ["FF0000", "FF7F00", "FFFF00", "00FF00", "0000FF", "4B0082", "9400D3"],
   },
   2: {
+    colors: ["#ff8700", "#edff00"],
+  },
+  3: {
     colors: ["#DF5858", "#E5A970", "#89C96F"],
   },
 }
