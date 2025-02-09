@@ -12,6 +12,9 @@ const presets = {
   3: {
     colors: ["#DF5858", "#E5A970", "#89C96F"],
   },
+  4: {
+    colors: ["#88691d", "#1e1e1f"],
+  },
 }
 const formats = {
   0: {
