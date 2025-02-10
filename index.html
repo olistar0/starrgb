@@ -58,6 +58,7 @@
                   <select id="output-format"
                           class="form-control"
                           onchange="updateOutputText(event);">
+                    <option value='3'>Nickname [PLAYER]</option>
                     <option value='0'>&#HEX [StarMC]</option>
                     <option value='2'>xHEX [StarMC]</option>
                     <option value='9'>#HEX [StarMC]</option>
@@ -75,11 +76,12 @@
                     <option value='2'>StarMC</option>
                     <option value='3'>Gingerbread</option>
                     <option value='4'>New Year 2025</option>
+                    <option value='5'>Cupid</option>
                   </select>
                 </div>
               </div>
               <div class="row">
-                <label for="numOfColors">Number of Colors</label>
+                <label for="numOfColors">Number of HEX Codes</label>
                 <input class="form-control"
                        style="width: 75px;"
                        value="2" id="numOfColors" type="number" min="2" max="10"
@@ -118,7 +120,7 @@
     </body>
 
   <footer style="display: flex; justify-content: center;">
-    <p>This is a fork from <a href="https://www.birdflop.com/resources/rgb/">RGBirdflop. </a></p>
+    <p>This is a fork from <a href="https://www.birdflop.com/resources/rgb/">RGBirdflop</a>. </p>
     <p>This is heavily based of Tosfoy's Fork <a href="https://rgb.haycube.net/">HayCubeRGB</a></p>
   </footer>
 </html>
