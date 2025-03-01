@@ -1,3 +1,9 @@
+logo-html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .logo {
     height: var(--logo-height);
 }
